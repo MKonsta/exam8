@@ -54,8 +54,8 @@ function createCountry(countryData) {
     <br>
     <h2>Money: ${countryData.currencies}</h2>
     <br>
-    <p><a href="https://www.google.com/search?q=Kazakhstan"  target="_blank">Google</a></p>
-    <p><a href="https://ru.m.wikipedia.org/wiki/Kazakhstan" target="_blank">Wiki</a></p>
+    <p><a href="https://www.google.com/search?q=${countryData.name}"  target="_blank">Google</a></p>
+    <p><a href="https://ru.m.wikipedia.org/wiki/${countryData.name}" target="_blank">Wiki</a></p>
     <br>`;
     return elem;
 }
