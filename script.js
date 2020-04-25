@@ -8,6 +8,7 @@ async function getData() {
     if (country.length < 2) {
         alert('name must be more than 2 symbols');
         countryName.reset();
+        country = '';
     }
 
     const resp = await fetch('https://restcountries.eu/rest/v2/name/' + country);
