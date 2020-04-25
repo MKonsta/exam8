@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="script.js"></script>
+</head>
+<body>
+<section id="page-splash" class="page-splash">
+
+    <div class="d-flex justify-content-center">
+        <div class="mx-3">
+            <form id="countryForm">
+                <h3>Coutries</h3>
+                <input type="text" id="name" name="name" class="form-control mb-1" required autofocus placeholder="country" minlength="2">
+                <button type="button" onclick="getData()" class="btn btn-outline-primary btn-block">Search</button>
+            </form>
+            <div id="data"></div>
+        </div>
+    </div>
+
+</section>
+</body>
+</html>
+
+
